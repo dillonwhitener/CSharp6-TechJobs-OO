@@ -74,12 +74,12 @@ namespace TechJobsOOAutoGraded6
         
         newString = string.Format
 
-                ("\n" + "ID: "+ Id +"\n" +
-                "Name: "+ Name +"\n" +
-                "Employer: " + EmployerName + "\n" +
-                "Location: " + EmployerLocation + "\n" +
-                "Position Type: " + JobType + "\n" +
-                "Core Competency: " + JobCoreCompetency + "\n");
+                (Environment.NewLine + "ID: "+ Id +Environment.NewLine +
+                "Name: "+ Name + Environment.NewLine +
+                "Employer: " + EmployerName + Environment.NewLine +
+                "Location: " + EmployerLocation + Environment.NewLine +
+                "Position Type: " + JobType + Environment.NewLine +
+                "Core Competency: " + JobCoreCompetency + Environment.NewLine);
 
         return newString;
 

@@ -41,7 +41,7 @@ namespace TechJobs.Tests
          [TestMethod] //4
         public void TestToStringStartsAndEndsWithNewLine()
         {
-            Assert.IsTrue(job3.ToString().StartsWith("\n") && job3.ToString().EndsWith("\n"));
+            Assert.IsTrue(job3.ToString().StartsWith(Environment.NewLine) && job3.ToString().EndsWith(Environment.NewLine));
         } 
 
         [TestMethod] //5
